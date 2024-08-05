@@ -21,6 +21,7 @@ const CardSection = () => {
             learnmore={card.learnmore}
           />
         ))}
+              <Waves backgroundColor='#e5e5e5' />
       </div>
     </div>
   );

@@ -1,11 +1,15 @@
-"use client";
-import React from "react";
-import Wave from "react-wavify";
+'use client';
+import React from 'react';
+import Wave from 'react-wavify';
 
-const Waves = () => {
+interface WavesProps {
+  backgroundColor?: string;
+}
+
+const Waves = ({ backgroundColor = '#004C93' }: WavesProps) => {
   return (
     <Wave
-      fill="#004C93"
+      fill={backgroundColor}
       paused={false}
       options={{
         height: 20,
