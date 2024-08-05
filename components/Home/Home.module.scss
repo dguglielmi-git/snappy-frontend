@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    height: 100vh;
+    // background-color: rgb(235, 232, 232);   
+    background-color: rgb(207, 212, 230);
+
+    &__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        padding: 0.5rem;
+
+    }
+
+    &__right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
