@@ -20,13 +20,13 @@ const Footer = () => {
             <span>
               <h4 className={roboto400.className}>
                 <strong className={Styles["strong"]}>Support:</strong>{" "}
-                support@snappy.app
+                support@snappy.com.ar
               </h4>
             </span>
             <span>
               <h4 className={roboto400.className}>
                 <strong className={Styles["strong"]}>Dev Team:</strong>{" "}
-                dev@snappy.app
+                dev@snappy.com.ar
               </h4>
             </span>
           </div>

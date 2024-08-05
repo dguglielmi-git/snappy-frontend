@@ -8,7 +8,7 @@ const descriptions = [
     title: "Business & Branch Offices",
     content:
       "Our system offers comprehensive control over multiple businesses or branch offices, including earnings, losses, and product status. With our centralized platform, you can manage operations remotely and make informed decisions, all from one place. Experience unparalleled efficiency and ease-of-use with our powerful solution.",
-    image: "/business.png",
+    image: "/stores.jpg",
   },
   {
     id: 2,
