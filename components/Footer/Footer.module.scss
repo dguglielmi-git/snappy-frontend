@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   width: 100vw;
   justify-content: center;
-  background-color: #001353;
+  // background-color: #001353;
+  background-color: #293241;
 
   @media (max-width: 850px) {
     flex-direction: column;    
@@ -12,7 +13,7 @@
   &__container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #001353;
+    background-color: #293241;
 
     @media (max-width: 850px) {
       justify-content: center;
@@ -86,7 +87,7 @@
     width: 90%;
     height: 4rem;
     border-top: 1px solid gray;
-    color: white;
+    color: #FFC107;
     justify-content: center;
     align-items: center;
 
@@ -94,9 +95,7 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      color: red;
       width: 100vw;
-      // height: 15rem;
       align-content: flex-start;
       padding-top: 20px;
     }
