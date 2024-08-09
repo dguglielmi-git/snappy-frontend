@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main style={{display: 'flex', flexDirection: 'column', width: '100%', overflow: 'hidden'}}>
       <Header />
-      <LandingPage />
-      <Footer />
+       <LandingPage />
+      <Footer /> 
     </main>
   );
 }

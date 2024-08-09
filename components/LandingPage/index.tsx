@@ -1,22 +1,18 @@
-"use client";
-import React from "react";
-import MainSection from "./MainSection";
-import CardSection from "./CardSection";
-import Descriptions from "./Descriptions";
+'use client';
+import React from 'react';
+import MainSection from './MainSection';
+import CardSection from './CardSection';
+import Descriptions from './Descriptions';
 
 const LandingPage = () => {
   return (
-      <main>
-        <section>
-          <MainSection />
-        </section>
-        <section>
-          <CardSection />
-        </section>
-        <section>
-          <Descriptions />
-        </section>
-      </main>
+    <main>
+      <MainSection />
+
+      <CardSection />
+
+      <Descriptions />
+    </main>
   );
 };
 

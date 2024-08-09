@@ -1,7 +1,6 @@
 import React from 'react';
 import ContainerDesc from './components/ContainerDesc';
 import { isOdd } from '@/utils/util';
-import Waves from '@/components/Waves';
 
 const descriptions = [
   {

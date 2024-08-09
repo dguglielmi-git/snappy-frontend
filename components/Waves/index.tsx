@@ -13,7 +13,7 @@ const Waves = ({ backgroundColor = '#004C93' }: WavesProps) => {
       paused={false}
       options={{
         height: 20,
-        amplitude: 40,
+        amplitude: 20,
         speed: 0.15,
         points: 3,
       }}

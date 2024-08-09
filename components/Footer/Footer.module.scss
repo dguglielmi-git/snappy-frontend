@@ -1,19 +1,36 @@
 .footer {
   display: flex;
   flex-wrap: wrap;
+  width: 100vw;
   justify-content: center;
   background-color: #001353;
+
+  @media (max-width: 850px) {
+    flex-direction: column;    
+  }
 
   &__container {
     display: flex;
     flex-wrap: wrap;
     background-color: #001353;
 
+    @media (max-width: 850px) {
+      justify-content: center;
+      align-items: center;
+    }
+
     &-logo {
       display: flex;
       flex-wrap: wrap;
       width: 200px;
       align-items: center;
+
+      @media (max-width: 850px) {
+        margin-top: 2rem;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+      }
     }
 
     &-contact {
@@ -23,6 +40,13 @@
       padding: 2rem;
       width: 35vw;
       height: 250px;
+
+      @media (max-width: 850px) {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
       h3 {
         color: rgb(194, 191, 191);
       }
@@ -42,6 +66,14 @@
       min-width: 10vw;
       height: 200px;
 
+      @media (max-width: 850px) {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+      }
+
       h3 {
         color: rgb(194, 191, 191);
       }
@@ -57,5 +89,17 @@
     color: white;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 850px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      color: red;
+      width: 100vw;
+      // height: 15rem;
+      align-content: flex-start;
+      padding-top: 20px;
+    }
+    
   }
 }

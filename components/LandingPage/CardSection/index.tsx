@@ -1,14 +1,14 @@
-import React from "react";
-import SnappyCard from "./SnappyCard";
-import { cards } from "./cardList";
-import Styles from "./CardSection.module.scss";
-import Waves from "@/components/Waves";
+import React from 'react';
+import SnappyCard from './SnappyCard';
+import { cards } from './cardList';
+import Styles from './CardSection.module.scss';
+import Waves from '@/components/Waves';
 
 const CardSection = () => {
   return (
-    <div>
+    <section className={Styles['cardsection-container']}>
       <Waves />
-      <div className={Styles["cardsection-container"]}>
+      <div className={Styles['cardsection-container__cards']}>
         {cards.map((card, index) => (
           <SnappyCard
             key={index}
@@ -21,9 +21,11 @@ const CardSection = () => {
             learnmore={card.learnmore}
           />
         ))}
-              <Waves backgroundColor='#e5e5e5' />
+        <article className={Styles['cardsection-container__waves']}>
+          <Waves backgroundColor='#e5e5e5' />
+        </article>
       </div>
-    </div>
+    </section>
   );
 };
 
