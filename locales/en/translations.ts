@@ -1,6 +1,6 @@
 export const TRANSLATION_EN = {
-  mainSectionHeader: 'One place to manage your entire business',
-  mainSectionSubHeader: 'Empower Your Business with Snappy',
+  mainSectionHeader: 'Simplify Your Business Management',
+  mainSectionSubHeader: 'Boost Your Business with Snappy',
   mainSectionSubtitle: 'Specialization in strategic & operational Management',
   mainSectionSignupButton: 'Sign Up!',
   loginButton: 'Log in',

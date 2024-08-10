@@ -1,6 +1,6 @@
 export const TRANSLATION_AR = {
-  mainSectionHeader: 'Administra tu negocio desde un solo lugar',
-  mainSectionSubHeader: 'Incrementa su poder con Snappy',
+  mainSectionHeader: 'Simplifica la gestión de tu empresa',
+  mainSectionSubHeader: 'Impulsa tu negocio con Snappy',
   mainSectionSubtitle: 'Especialización en Gestión Estratégica y Operacional',
   mainSectionSignupButton: 'Registrate!',
   loginButton: 'Ingresa',
