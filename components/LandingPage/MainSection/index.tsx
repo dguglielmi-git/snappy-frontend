@@ -1,26 +1,29 @@
 import { roboto500 } from '@/styles/fonts/RobotoFonts';
 import Image from 'next/image';
 import Styles from './MainSection.module.scss';
+import { useTranslation } from 'react-i18next';
 
 const MainSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={Styles['mainsection-container']}>
       <div className={Styles['mainsection-container__signup']}>
         <span>
-          <h1 className={roboto500.className}>One place to manage your entire business</h1>
+          <h1 className={roboto500.className}>{t('mainSectionHeader')}</h1>
         </span>
 
         <div className={Styles['mainsection-container__signup-text']}>
           <span>
-            <h3 className={roboto500.className}>Empower Your Business with Snappy</h3>
+            <h3 className={roboto500.className}>{t('mainSectionSubHeader')}</h3>
           </span>
           <span>
-            <h4 className={roboto500.className}>Specialization in strategic & operational Management</h4>
+            <h4 className={roboto500.className}>{t('mainSectionSubtitle')}</h4>
           </span>
         </div>
         <div className={Styles['mainsection-container__signup-signup']}>
           <div className={Styles['mainsection-container__signup-signup-button']}>
-            <h3 className={roboto500.className}>Sign Up!</h3>
+            <h3 className={roboto500.className}>{t('mainSectionSignupButton')}</h3>
           </div>
         </div>
       </div>
