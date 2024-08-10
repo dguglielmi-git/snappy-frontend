@@ -7,18 +7,15 @@ const MainSection = () => {
     <section className={Styles['mainsection-container']}>
       <div className={Styles['mainsection-container__signup']}>
         <span>
-          <h1 className={roboto500.className}>Join the Snappy Community</h1>
+          <h1 className={roboto500.className}>One place to manage your entire business</h1>
         </span>
 
-        <span>
-          <h2 className={roboto500.className}>your gateway to Business Success...</h2>
-        </span>
         <div className={Styles['mainsection-container__signup-text']}>
           <span>
             <h3 className={roboto500.className}>Empower Your Business with Snappy</h3>
           </span>
           <span>
-            <h4 className={roboto500.className}>Streamlined Control for Smart Entrepreneurs</h4>
+            <h4 className={roboto500.className}>Specialization in strategic & operational Management</h4>
           </span>
         </div>
         <div className={Styles['mainsection-container__signup-signup']}>
