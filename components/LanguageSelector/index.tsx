@@ -62,11 +62,13 @@ const LanguageSelector = () => {
           <ul>
             {languages.map((lang, index) => (
               <li key={index}>
-                <a href='#' onClick={() => handleSelect(lang)}>
-                  <span>
+                {/* <a href='' onClick={() => handleSelect(lang)}> */}
+                <div className={Styles['language-item']}>
+                  <span onClick={() => handleSelect(lang)}>
                     {lang.component} {lang.language}
                   </span>
-                </a>
+                </div>
+                {/* </a> */}
               </li>
             ))}
           </ul>
